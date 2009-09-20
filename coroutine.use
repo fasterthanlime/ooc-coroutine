@@ -1,0 +1,10 @@
+Name: libcoroutine
+Description: A stackfull implementation of coroutines by Steve Dekorte
+
+Requires: basekit, math
+
+Include-Paths: ../coroutine/_build/headers
+Lib-Paths: ../coroutine/_build/lib
+
+Includes: Coro.h
+Libs: -lcoroutine
