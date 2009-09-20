@@ -1,0 +1,15 @@
+Amos Wenger's ooc bindings for Steve Dekorte's libcoroutine
+
+libcoroutine provides a portable, stackfull implementation of coroutines in C99, using
+mostly fibers, ucontext, etc. depending on the platform/compile options.
+
+Instructions
+============
+
+You must checkout Steve Dekorte's coroutine in the same directory as ooc-coroutine
+in order to use it (check it out on github)
+Then add it to your sourcepath, e.g. compile with
+
+ooc -sourcepath=.:../ooc-coroutine/ myTest.ooc
+
+(if your project's folder is in the same folder as ooc-coroutine)
