@@ -8,3 +8,5 @@ Lib-Paths: ../coroutine/_build/lib
 
 Includes: Coro.h
 Libs: -lcoroutine
+
+SourcePath: .
